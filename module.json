@@ -1,0 +1,346 @@
+{
+  "module": [
+    {
+      "Name": "Advanced Communication",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 11
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 13
+        },
+        {
+          "Tag": "Montag",
+          "Start": 9
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Aktuelle Forschungsthemen in der Kommunikation: Web 2.0 und Soziale Netze",
+      "Termine": [
+        {
+          "Tag": "Mittwoch",
+          "Start": 9
+        },
+        {
+          "Tag": "Dienstag",
+          "Start": 17
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Anwendungen der Unternehmensmodellierung",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 9
+        },
+        {
+          "Tag": "Dienstag",
+          "Start": 11
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "BioSystems Modelling and Simulation (Systems Biology II)",
+      "Termine": [
+        {
+          "Tag": "Mittwoch",
+          "Start": 9
+        },
+        {
+          "Tag": "Dienstag",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Datawarehouse und Business Intelligence",
+      "Termine": [
+        {
+          "Tag": "Mittwoch",
+          "Start": 13
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Datenbanken III",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 9
+        },
+        {
+          "Tag": "Montag",
+          "Start": 11
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Design (OO SWE mit UML und Interaction Design)",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 17
+        },
+        {
+          "Tag": "Donnerstag",
+          "Start": 13
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Distributed Algorithms",
+      "Termine": [
+        {
+          "Tag": "Mittwoch",
+          "Start": 11
+        },
+        {
+          "Tag": "Freitag",
+          "Start": 11
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Distributed Computing and Cloud Computing",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 13
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 11
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Einführung in Visual Computing",
+      "Termine": [
+        {
+          "Tag": "Freitag",
+          "Start": 13
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Eingebettete Multiprozessorsysteme",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 9
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 11
+        },
+        {
+          "Tag": "Donnerstag",
+          "Start": 11
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Graphen- und Hypergraphenmodelle der Informatik",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 17
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 9
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Hochleistungsverbindungsnetze",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 7
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Intelligente Umgebungen und kooperative Ensembles",
+      "Termine": [
+        {
+          "Tag": "Freitag",
+          "Start": 9
+        },
+        {
+          "Tag": "Donnerstag",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Literaturprojekt Visual Computing",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 13
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Methoden der WIN-Forschung",
+      "Termine": [
+        {
+          "Tag": "Montag",
+          "Start": 13
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Modelle für Geschäftsprozesse und Services",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 15
+        },
+        {
+          "Tag": "Montag",
+          "Start": 9
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Multimediale Kommunikationssysteme",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 11
+        },
+        {
+          "Tag": "Montag",
+          "Start": 9
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Nature Inspired Computing",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 11
+        },
+        {
+          "Tag": "Dienstag",
+          "Start": 13
+        },
+        {
+          "Tag": "Dienstag",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Neueste Entwicklungen in der Informatik",
+      "Termine": [
+        {
+          "Tag": "Montag",
+          "Start": 17
+        },
+        {
+          "Tag": "Montag",
+          "Start": 15
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Parallel and distributed Simulation",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 11
+        },
+        {
+          "Tag": "Donnerstag",
+          "Start": 15
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Requirements Engineering",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 15
+        },
+        {
+          "Tag": "Mittwoch",
+          "Start": 11
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Softwareprojekt VC",
+      "Termine": [
+        {
+          "Tag": "Dienstag",
+          "Start": 13
+        }
+      ],
+      "aktiv": false
+    },
+    {
+      "Name": "Theorie relationaler Datenbanken",
+      "Termine": [
+        {
+          "Tag": "Freitag",
+          "Start": 9
+        },
+        {
+          "Tag": "Freitag",
+          "Start": 11
+        }
+      ],
+      "aktiv": true
+    },
+    {
+      "Name": "Wirtschaftsinformatik",
+      "Termine": [
+        {
+          "Tag": "Donnerstag",
+          "Start": 17
+        }
+      ],
+      "aktiv": false
+    }
+  ]
+}
