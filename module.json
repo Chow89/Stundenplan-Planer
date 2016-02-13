@@ -16,7 +16,7 @@
           "Start": 9
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Aktuelle Forschungsthemen in der Kommunikation: Web 2.0 und Soziale Netze",
@@ -100,7 +100,7 @@
           "Start": 13
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Distributed Algorithms",
@@ -114,7 +114,7 @@
           "Start": 11
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Distributed Computing and Cloud Computing",
@@ -128,7 +128,7 @@
           "Start": 11
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Einführung in Visual Computing",
@@ -170,7 +170,7 @@
           "Start": 9
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Hochleistungsverbindungsnetze",
@@ -306,7 +306,7 @@
           "Start": 11
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Softwareprojekt VC",

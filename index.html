@@ -9,12 +9,12 @@
 <div id="table">
     <table>
         <tr>
-            <td></td>
-            <td>Montag</td>
-            <td>Dienstag</td>
-            <td>Mittwoch</td>
-            <td>Donnerstag</td>
-            <td>Freitag</td>
+            <th></th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
         </tr>
         <tr>
             <td>7</td>
@@ -77,35 +77,53 @@
 <script>
     var model = undefined;
 
-    function drawtable(t) {
-        t.forEach(function (e, i) {
-            e.forEach(function (e2, i2) {
-                var zelle = document.getElementsByTagName("td")[(i2 + 1) * 6 + (i + 1)];
-                var list = [];
-                e2.forEach(function (e3) {
-                    if (e3.Aktiv) {
-                        list.push(e3)
+    function cleartable() {
+        var zellen = document.getElementsByTagName("td");
+        for(var x =0;x<zellen.length;x++) {
+            if (zellen[x].innerHTML.length > 2) { //FIXME: bit too tricky
+                zellen[x].innerHTML = "";
+            }
+        }
+    }
+
+    function drawtable() {
+        cleartable();
+        model.forEach(function (e) {
+            if (e.aktiv) {
+                e.Termine.forEach(function (e2) {
+                    var x = -1;
+                    switch (e2.Tag) {
+                        case "Montag":
+                            x = 0;
+                            break;
+                        case "Dienstag":
+                            x = 1;
+                            break;
+                        case "Mittwoch":
+                            x = 2;
+                            break;
+                        case "Donnerstag":
+                            x = 3;
+                            break;
+                        case "Freitag":
+                            x = 4;
+                            break;
+                    }
+                    if (x != -1) {
+                        var slot = (e2.Start - 7) / 2;
+                        var zelle = document.getElementsByTagName("td")[(slot) * 6 + (x + 1)];
+                        if (zelle.innerHTML == "") {
+                            zelle.innerHTML = e.Name;
+                        } else {
+                            zelle.innerHTML += "<hr>" + e.Name;
+                        }
                     }
                 });
-                var s = "";
-                list.forEach(function (e) {
-                    s += e.Name + "<hr>";
-                });
-                s = s.slice(0, s.length - 4);
-                zelle.innerHTML = s;
-
-            });
+            }
         });
     }
 
     function loadjson() {
-        var table = [];
-        for (var x = 0; x < 5; x++) {
-            table[x] = [];
-            for (var y = 0; y < 6; y++) {
-                table[x][y] = [];
-            }
-        }
         var req = new XMLHttpRequest();
         req.open("GET", "module.json", true);
         req.onreadystatechange = function () {
@@ -120,38 +138,22 @@
                     checkbox.value = e.Name;
                     checkbox.id = e.Name;
                     checkbox.checked = e.aktiv;
+                    checkbox.onclick = function () {
+                        modules.forEach(function (m) {
+                            if (m.Name == e.Name) {
+                                e.aktiv = !e.aktiv;
+                                drawtable();
+                            }
+                        });
+                    };
                     var label = document.createElement("label");
                     label.htmlFor = e.Name;
                     label.appendChild(document.createTextNode(e.Name));
                     list.appendChild(checkbox);
                     list.appendChild(label);
                     list.appendChild(document.createElement("br"));
-                    e.Termine.forEach(function (termin) {
-                        var x = -1;
-                        switch (termin.Tag) {
-                            case "Montag":
-                                x = 0;
-                                break;
-                            case "Dienstag":
-                                x = 1;
-                                break;
-                            case "Mittwoch":
-                                x = 2;
-                                break;
-                            case "Donnerstag":
-                                x = 3;
-                                break;
-                            case "Freitag":
-                                x = 4;
-                                break;
-                        }
-                        if (x != -1) {
-                            var y = (termin.Start - 7) / 2;
-                            table[x][y].push({Name: e.Name, Aktiv: e.aktiv});
-                        }
-                    });
                 });
-                drawtable(table);
+                drawtable();
             }
         };
         req.send();
