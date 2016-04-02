@@ -100,7 +100,7 @@
           "Start": 13
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Distributed Algorithms",
@@ -114,7 +114,7 @@
           "Start": 11
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Distributed Computing and Cloud Computing",
@@ -128,7 +128,7 @@
           "Start": 11
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Einführung in Visual Computing",
@@ -170,7 +170,7 @@
           "Start": 9
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Hochleistungsverbindungsnetze",
@@ -232,7 +232,7 @@
           "Start": 9
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Multimediale Kommunikationssysteme",
@@ -306,7 +306,7 @@
           "Start": 11
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Softwareprojekt VC",
