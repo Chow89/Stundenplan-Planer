@@ -30,7 +30,7 @@
           "Start": 17
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Anwendungen der Unternehmensmodellierung",
@@ -72,7 +72,7 @@
           "Start": 15
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Datenbanken III",
@@ -114,21 +114,21 @@
           "Start": 11
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Distributed Computing and Cloud Computing",
       "Termine": [
         {
           "Tag": "Donnerstag",
-          "Start": 13
+          "Start": 9
         },
         {
-          "Tag": "Mittwoch",
+          "Tag": "Donnerstag",
           "Start": 11
         }
       ],
-      "aktiv": true
+      "aktiv": false
     },
     {
       "Name": "Einführung in Visual Computing",
@@ -232,7 +232,7 @@
           "Start": 9
         }
       ],
-      "aktiv": false
+      "aktiv": true
     },
     {
       "Name": "Multimediale Kommunikationssysteme",
